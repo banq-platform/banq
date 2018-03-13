@@ -1,0 +1,16 @@
+Building Banq Core
+
+Use the autogen script to prepare the build environment.
+
+    ./autogen.sh
+    ./configure
+    make
+
+Precompiled binaries are available at github, see
+https://github.com/banqcoin/banq-binaries
+
+Always verify the signatures and checksums.
+
+See doc/build-*.md for instructions on building banqd,
+the intended-for-services, no-graphical-interface, reference
+implementation of Banq.
